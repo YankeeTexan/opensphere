@@ -112,7 +112,7 @@
             "type": "BaseMap",
             "baseType": "XYZ",
             "provider": "ArcGIS Online",
-            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+            "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
             "minZoom": 12,
             "maxZoom": 21,
             "projection": "EPSG:3857",
@@ -237,7 +237,7 @@
       "cesium": 150000
     },
     "onboarding": {
-      "showOnboarding": true
+      "showOnboarding": false
     },
     "baseProjection": "EPSG:3857",
     "ui": {
